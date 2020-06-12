@@ -18,7 +18,7 @@ class bcolors:
     ENDC = '\033[0m'
 
 def print_pause(message_to_print):
-    """Pause on printing delay to calibrate speed of delivery of information to user"""
+    """Dealy on printing messages to calibrate speed of delivery of information to user"""
     time.sleep(2)
     print(message_to_print)    
     

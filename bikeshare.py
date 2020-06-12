@@ -19,7 +19,7 @@ class bcolors:
 
 def print_pause(message_to_print):
     """Pause on printing delay to calibrate speed of delivery of information to user"""
-    time.sleep(2)
+    time.sleep(1)
     print(message_to_print)    
     
 def get_filters():

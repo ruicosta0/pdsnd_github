@@ -11,7 +11,6 @@ month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', '
 class bcolors:
     BLUE = '\u001b[34;1m'
     MAGENTA = '\u001b[35;1m'
-    RED = '\u001b[31m'
     GREEN = '\u001b[32m'
     YELLOW = '\u001b[33;1m'
     CYAN = '\u001b[36;1m'

@@ -11,15 +11,14 @@ month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', '
 class bcolors:
     BLUE = '\u001b[34;1m'
     MAGENTA = '\u001b[35;1m'
-    RED = '\u001b[31m'
     GREEN = '\u001b[32m'
     YELLOW = '\u001b[33;1m'
     CYAN = '\u001b[36;1m'
     ENDC = '\033[0m'
 
 def print_pause(message_to_print):
-    """Dealy on printing messages to calibrate speed of delivery of information to user"""
-    time.sleep(2)
+    """Pause on printing delay to calibrate speed of delivery of information to user"""
+    time.sleep(1)
     print(message_to_print)    
     
 def get_filters():
